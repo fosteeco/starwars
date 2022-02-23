@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+body {
+  background-image: url('./images/star-lines.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  font-family: Inter;
+}
+.container {
+  margin: 0 auto;
+  margin-top: 124px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90vw;
+}
+.logo {
+  max-width: 700px;
+  height: auto;
+  margin-top: 36px;
+}
+header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
