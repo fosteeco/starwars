@@ -12,6 +12,16 @@ body {
   background-repeat: no-repeat;
   font-family: Inter;
 }
+header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.logo {
+  max-width: 700px;
+  height: auto;
+  margin-top: 36px;
+}
 .container {
   margin: 0 auto;
   margin-top: 124px;
@@ -19,14 +29,4 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 90vw;
-}
-.logo {
-  max-width: 700px;
-  height: auto;
-  margin-top: 36px;
-}
-header {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
 }

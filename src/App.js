@@ -32,9 +32,12 @@ function App() {
   console.log(systems)
   console.log(species)
   return (
-    <div className='container'>
+    <>
       <Header />
-    </div>
+      <div className='container'>
+        
+      </div>
+    </>
   )
 }
 
