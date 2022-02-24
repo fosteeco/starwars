@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import axios from 'axios'
 import './index.css'
 import Header from './components/Header'
