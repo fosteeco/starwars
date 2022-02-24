@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import './index.css'
 import Header from './components/Header'
+import NavLinks from './components/Nav'
 
 function App() {
   const [characters, setCharacters] = useState([])
@@ -34,6 +35,7 @@ function App() {
   return (
     <>
       <Header />
+      <NavLinks />
       <div className='container'>
         
       </div>
