@@ -6,6 +6,12 @@ blue: rgb(46, 103, 248)
 red: rgb(235, 33, 46)
 green: rgb(47, 249, 36)
 */
+:root {
+  --lightsaber-blue: rgb(46, 103, 248);
+  --lightsaber-red: rgb(235, 33, 46);
+  --lightsaber-green: rgb(47, 249, 36);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -37,11 +43,12 @@ header {
   width: 90vw;
 }
 .nav li a {
-  color: rgb(46, 103, 248);
+  color: var(--lightsaber-blue);
   font-size: 1.5rem;
 }
 .nav li a:hover {
   color: #ffffff;
-  text-shadow: 0 6px 4px rgb(46, 103, 248), 0 -6px 4px rgb(46, 103, 248);
-  border-bottom: 2px solid rgb(46, 103, 248);
+  text-shadow: 0 6px 4px var(--lightsaber-blue),
+    0 -6px 4px var(--lightsaber-blue);
+  border-bottom: 2px solid var(--lightsaber-blue);
 }
